@@ -29,5 +29,6 @@ public class Constants {
     public static final String RED_COLOR = "rgb(169, 68, 66)";
     public static final String WRONG_EMAIL_ADDRESS = "amIWrong@gmail.com";
     public static final String WRONG_PASSWORD = "someday231993";
-
+    public static final String BLACK_COLOR1 = "rgb(51, 51, 51)";
+    public static final String BLACK_COLOR2 = "rgb(85, 85, 85)";
 }
