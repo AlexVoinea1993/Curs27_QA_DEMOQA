@@ -31,4 +31,10 @@ public class Constants {
     public static final String WRONG_PASSWORD = "someday231993";
     public static final String BLACK_COLOR1 = "rgb(51, 51, 51)";
     public static final String BLACK_COLOR2 = "rgb(85, 85, 85)";
+    public static final String COMMENT1 = "nothing to declare";
+    public static final String COMMENT2 = "It's a very good monitor";
+    public static final String DATE = "2023-12-07 ";
+    public static final String TIME = " 03:10";
+    public static final String NUMBER_OF_PRODUCTS = "2";
+    public static final String POSTCODE = "012915";
 }

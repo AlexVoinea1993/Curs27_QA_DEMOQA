@@ -22,6 +22,10 @@ public class HeaderPage extends BasePage {
     WebElement shoppingCartColor;
     @FindBy(id = "menu")
     WebElement navigationBarColor;
+    @FindBy(xpath = "(//a[contains(text(),'Components')])[1]")
+    WebElement componentsTab;
+    @FindBy(xpath = "//a[contains(text(),'Monitors')]")
+    WebElement monitorsTab;
 
     public HeaderPage(WebDriver driver) {
         super(driver);
@@ -77,6 +81,13 @@ public class HeaderPage extends BasePage {
 
     public void clickLoginButton() {
         login.click();
+    }
+
+    public void clickComponentsTab() {
+        componentsTab.click();
+    }
+    public void clickMonitorsTab(){
+        monitorsTab.click();
     }
 }
 
